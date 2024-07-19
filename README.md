@@ -1,16 +1,57 @@
-# unittesting
+# Flutter Unit Testing Project
 
-A new Flutter project.
+This project is a learning exercise focused on unit testing in Flutter. It covers various unit testing techniques, including testing a counter app and hitting GET APIs, along with the concepts of stubs for offline testing.
 
-## Getting Started
+## Table of Contents
 
-This project is a starting point for a Flutter application.
+- [Overview](#overview)
+- [Key Learnings](#key-learnings)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Running Tests](#running-tests)
+- [Contributing](#contributing)
+- [License](#license)
 
-A few resources to get you started if this is your first Flutter project:
+## Overview
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+In this project, I explored different aspects of unit testing in Flutter. The project includes tests for a simple counter app and also demonstrates how to test API calls using stubs.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Key Learnings
+
+1. **Unit Testing Basics**:
+   - Writing single and grouped tests.
+   - Understanding `setUp`, `setUpAll`, `tearDown`, and `tearDownAll` functions.
+
+2. **Counter App Testing**:
+   - Testing the functionalities of a simple counter app.
+
+3. **API Testing**:
+   - Testing GET API calls.
+   - Using stubs to simulate network responses for offline testing with the `mocktail` package.
+
+## Prerequisites
+
+- Flutter SDK: [Installation guide](https://flutter.dev/docs/get-started/install)
+- Dart SDK: Included with Flutter
+
+## Installation
+
+1. Clone the repository:
+
+    ```sh
+    git clone https://github.com/yourusername/yourrepository.git
+    cd yourrepository
+    ```
+
+2. Install dependencies:
+
+    ```sh
+    flutter pub get
+    ```
+
+## Running Tests
+
+To run the tests included in this project, use the following command:
+
+```sh
+flutter test
