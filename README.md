@@ -9,8 +9,6 @@ This project is a learning exercise focused on unit testing in Flutter. It cover
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Running Tests](#running-tests)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
