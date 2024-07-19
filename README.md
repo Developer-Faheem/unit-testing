@@ -28,6 +28,7 @@ In this project, I explored different aspects of unit testing in Flutter. The pr
 3. **API Testing**:
    - Testing GET API calls.
    - Using stubs to simulate network responses for offline testing with the `mocktail` package.
+   - In this project, the mocktail package is used to create stubs for API testing. mocktail allows you to mock dependencies and control their behavior during tests, which is especially useful for simulating network responses when offline.
 
 ## Prerequisites
 
